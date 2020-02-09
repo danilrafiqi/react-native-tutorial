@@ -4,6 +4,7 @@ import Greeting from './src/Greeting';
 import Blink from './src/Blink';
 import BelajarStyle from './src/BelajarStyle';
 import BelajarText from './src/BelajarText';
+import BelajarButton from './src/BelajarButton';
 const App = () => {
   return (
     <View>
@@ -16,7 +17,8 @@ const App = () => {
       <Blink text="I love Lampung" /> */}
       {/* <BelajarStyle /> */}
 
-      <BelajarText />
+      {/* <BelajarText /> */}
+      <BelajarButton />
     </View>
   );
 };
