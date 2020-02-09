@@ -3,7 +3,7 @@ import {View, Text} from 'react-native';
 import Greeting from './src/Greeting';
 import Blink from './src/Blink';
 import BelajarStyle from './src/BelajarStyle';
-
+import BelajarText from './src/BelajarText';
 const App = () => {
   return (
     <View>
@@ -14,7 +14,9 @@ const App = () => {
 
       {/* <Blink text="I love Programming" />
       <Blink text="I love Lampung" /> */}
-      <BelajarStyle />
+      {/* <BelajarStyle /> */}
+
+      <BelajarText />
     </View>
   );
 };
