@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {ScrollView, Text} from 'react-native';
 import Greeting from './src/Greeting';
 import Blink from './src/Blink';
 import BelajarStyle from './src/BelajarStyle';
@@ -7,7 +7,7 @@ import BelajarText from './src/BelajarText';
 import BelajarButton from './src/BelajarButton';
 const App = () => {
   return (
-    <View>
+    <ScrollView>
       {/* <Text>Halo dunia</Text> */}
       {/* <Greeting nama="LampungDev" />
       <Greeting nama="Sumatra" />
@@ -19,7 +19,20 @@ const App = () => {
 
       {/* <BelajarText /> */}
       <BelajarButton />
-    </View>
+      <BelajarButton />
+      <BelajarButton />
+      <BelajarButton />
+      <BelajarButton />
+      <BelajarButton />
+      <BelajarButton />
+      <BelajarButton />
+      <BelajarButton />
+      <BelajarButton />
+      <BelajarButton />
+      <BelajarButton />
+      <BelajarButton />
+      <BelajarButton />
+    </ScrollView>
   );
 };
 
