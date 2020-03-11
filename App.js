@@ -6,6 +6,7 @@ import BelajarStyle from './src/BelajarStyle';
 import BelajarText from './src/BelajarText';
 import BelajarButton from './src/BelajarButton';
 import BelajarFlatList from './src/BelajarFlatList';
+import BelajarImage from './src/BelajarImage';
 
 const App = () => {
   return (
@@ -23,7 +24,9 @@ const App = () => {
         {/* <BelajarText /> */}
         {/* <BelajarButton /> */}
 
-        <BelajarFlatList />
+        {/* <BelajarFlatList /> */}
+
+        <BelajarImage />
       </ScrollView>
     </>
   );
